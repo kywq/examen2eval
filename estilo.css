@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+@media screen {
+    html{
+        background-color: lightcoral;
+    }
+}
+@media (orientation: portrait){
+    html{
+        background-color: limegreen;
+    }
+}
+@media (orientation: landscape) and (min-resolution: 200DPI){
+    html{
+        background-color: yellow;
+    }
+}
+
+h1{
+    background-color: lightblue;
+    color: red;
+    font-family: "Zhi Mang Xing";
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    text-align: center;
+    width: 5em;
+    border: lightcoral 10px solid;
+    margin: 0;
+    padding: 0 3px;
+    background-color: lightblue;
+}
+a {
+    color: blue;
+    background-color: lightblue;
+    padding: 0 4px;
+    text-decoration: none;
+}
+  br{
+      clear: both;
+  }
+a:hover {
+    color: red;
+}
+
+section.yellow{
+    background-color: lightyellow;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+ol{
+    padding-left: 20px;
+
+}
+ol li{
+    margin-left: 0;
+    
+}
+
+section.blue{
+    background-color: lightsteelblue;
+}
+
+table{
+    background-color: chocolate;
+
+
+}
+
+td{
+
+    border-spacing: 30px;
+}
+hr{
+    margin-left: 12%;
+    margin-right: 50%;
+    border: blue 15px solid;
+}
+
+h3{
+    color: yellow;
+    border-bottom: 15px dashed;
+    border-top: orange 15px dotted;
+    border-left: red 15px solid;
+    border-right: red 15px solid;
+    text-align: center;
+}
+
+p.pie{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 50;
+}
